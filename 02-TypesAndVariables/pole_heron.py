@@ -1,0 +1,11 @@
+import math
+a=input("podaj długość boku a :")
+a=int(a)
+b=input("podaj długość boku b :")
+b=int(b)
+c=input("podaj długość boku c :")
+c=int(c)
+p=((a+b+c)/2) 
+q=(p*(p-a)*(p-b)*(p-c))
+s=math.sqrt(q)
+print(f"pole wynosi {s}")

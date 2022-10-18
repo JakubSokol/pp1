@@ -1,0 +1,6 @@
+x=input("podaj swoja wage w cm :")
+x=int(x)
+y=input("podaj swoja wage w kg :")
+y=int(y)
+bmi=y/((x/100)**2)
+print(f"twoje bmi wynosi {bmi}")
