@@ -1,0 +1,6 @@
+f=open("task10.txt","w")
+f.write("Jakub\nSokol\nuek\napplied informatics")
+f.close()
+fr=open("task10.txt","r")
+print(fr.read())
+fr.close()
