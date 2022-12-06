@@ -1,0 +1,13 @@
+array=[1,3,5,7,9]
+array1=[[1,2,3,4],[5,6,7,8]]
+mydict={"first_name":"kuba","last_name":"sokol","age":19}
+print(mydict["first_name"])
+print(mydict["last_name"])
+print(mydict["age"])
+print(mydict["first_name"]+mydict["last_name"]+str(mydict["age"]))
+mydict2=[{"first_name":"kuba","last_name":"sokol","age":19},
+         {"first_name":"michal","last_name":"sokol","age":26}]
+print(mydict2[0]["first_name"])
+mybonus={"mylist":[1,3,5],"name":"lucky_numbers"}
+print(mybonus["mylist"][1])
+print(mybonus["name"])
